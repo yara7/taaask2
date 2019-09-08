@@ -1,0 +1,100 @@
+/* اساسي في اي صفحة*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.items {/* دي بدل ال
+  img
+  عشان كانت بتأثر على كل الصور و بتخليهم تحت
+  بعض بس احنا محتاجينها في صورة واحده بس */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:300px;
+}
+
+
+#secondparagraph {
+  position: absolute;
+  right: -10px;
+  width: 500px;
+  padding: 5px
+ 
+}
+.about{/*ده عشان البراجراف  عشان ميدخلش الصورة ه
+  عليه*/
+  height: 300px;
+}
+.icons{
+	background-color:lightblue;
+	height:30px
+	width:50%
+	margin:aouto;
+	text-align:center;
+}
+#firstparagraph {
+
+ float:left;
+}
+#secondone{
+	
+	text-align:center;
+}
+#firstone{
+	
+	
+	height:700px;
+	width:100%;
+text-align:center;
+}
+#thirdone{
+	
+	
+	height:700px;
+	width:100%;
+text-align:center;
+}
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+div.gallery {
+ /* خليته فاضي عشان كان بيخلي الصور تحت بعض
+ و ده كان بسبب ال
+ width 
+ اللي كان بياخده*/
+}
+
+div.gallery img {
+  width: 19.8%;
+  height: 265px;
+   /*
+   هنا خليت كل صورة عشان يكونو جنب بعض ي
+   ياخدو 
+   width معين
+   و ده هتعرفي تظبطيه في 
+   inspect from google chrome
+    و الheight
+    عشان شكل الصورة تتعمل مظبوط */
+}
+
+/*
+.clients {
+  margin: 5px;
+  width: 180px;ده السبب عشان خلى الديف صغير و ضيق ف خلى الصور تحت بعضها  
+}*/
+
+.clients img {
+  /*only added width but you can edit it*/
+  width: 8%;
+  height: auto;
+  
+}
+.clients{
+	text-align:center;
+}
